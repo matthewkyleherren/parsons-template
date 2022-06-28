@@ -9265,5 +9265,24 @@ min-width: 100vw;
 .mobile-fp {
 	display:none;
 }
+
+
+.gradient-shape {
+position: absolute;
+background: radial-gradient(circle, #ff00aa 0%, #00d8ff 50%, rgba(255, 0, 0, 0) 100%);
+-webkit-mask-image: radial-gradient(ellipse 100% 100% at 50% 50%, black 30%, transparent 50%);
+mask-image: radial-gradient(ellipse 100% 100% at 50% 50%, black 30%, transparent 50%);
+width: 80vw;
+height: 74vw;
+left: 5vw;
+top: 10vw;
+-webkit-animation: scalegradientShape 8s ease-in-out infinite;
+animation: scalegradientShape 8s ease-in-out infinite;
+-webkit-animation-play-state: running;
+animation-play-state: running;
+opacity: .5;
+pointer-events: none;
+z-index: -1;
+}
 }	
 	
