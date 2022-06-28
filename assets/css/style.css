@@ -9275,7 +9275,7 @@ mask-image: radial-gradient(ellipse 100% 100% at 50% 50%, black 30%, transparent
 width: 80vw;
 height: 74vw;
 left: 5vw;
-top: 10vw;
+top: 30vw;
 -webkit-animation: scalegradientShape 8s ease-in-out infinite;
 animation: scalegradientShape 8s ease-in-out infinite;
 -webkit-animation-play-state: running;
