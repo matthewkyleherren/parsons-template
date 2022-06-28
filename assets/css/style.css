@@ -1,3 +1,14 @@
+// SETUP
+@import "formir/setup/classes";
+@import "formir/setup/core";
+@import "formir/setup/variables";
+
+  //// THEME SETUP
+  @import "formir/themes/default/setup/classes";
+  @import "formir/themes/default/setup/core";
+  @import "formir/themes/default/setup/variables";
+  @import "spotlight.css";
+
 html {
 	font-family: sans-serif;
 	-ms-text-size-adjust: 100%;
@@ -9171,7 +9182,23 @@ background-position: bottom left;
 background-repeat: no-repeat;
 background-size: auto 100%;
 }
-
+.gradient-shape {
+position: absolute;
+background: radial-gradient(circle, #ff00aa 0%, #00d8ff 50%, rgba(255, 0, 0, 0) 100%);
+-webkit-mask-image: radial-gradient(ellipse 100% 100% at 50% 50%, black 30%, transparent 50%);
+mask-image: radial-gradient(ellipse 100% 100% at 50% 50%, black 30%, transparent 50%);
+width: 54vw;
+height: 54vw;
+left: 30vw;
+top: 10vw;
+-webkit-animation: scalegradientShape 8s ease-in-out infinite;
+animation: scalegradientShape 8s ease-in-out infinite;
+-webkit-animation-play-state: running;
+animation-play-state: running;
+opacity: .5;
+pointer-events: none;
+z-index: -1;
+}
 @media screen and (max-width: 767px) {
 	#home-one {
 	background: url(/assets/imgs/home_hero_01_mobile.png);
