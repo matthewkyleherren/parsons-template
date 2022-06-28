@@ -9185,8 +9185,7 @@ background-size: auto 100%;
 .gradient-shape {
 position: absolute;
 background: radial-gradient(circle, #ff00aa 0%, #00d8ff 50%, rgba(0, 255, 143, 1) 100%);
--webkit-mask-image: radial-gradient(ellipse 100% 100% at 50% 50%, black 30%, transparent 70%);
-mask-image: radial-gradient(ellipse 100% 100% at 50% 50%, black 30%, transparent 70%);
+
 width: 100vw;
 height: 100vh;
 left: 0vw;
@@ -9270,8 +9269,7 @@ min-width: 100vw;
 .gradient-shape {
 position: absolute;
 background: radial-gradient(circle, #ff00aa 0%, #00d8ff 50%, rgba(0, 255, 143, 0.978) 100%);
--webkit-mask-image: radial-gradient(ellipse 100% 100% at 50% 50%, black 30%, transparent 50%);
-mask-image: radial-gradient(ellipse 100% 100% at 50% 50%, black 30%, transparent 50%);
+
 width: 100vw;
 height: 100vh;
 left: 0vw;
