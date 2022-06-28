@@ -9128,6 +9128,22 @@ background-repeat: no-repeat;
 background-size: auto 100%;
 }
 
+/* .model-name-one {
+background: -webkit-linear-gradient(#f08, #f00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(#f08, #f00);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 0px;
+} */
+
+.model-name-one {
+color:#f08;
+
+}
+
+
 #home-two {
 background: url(/assets/imgs/home_hero_02.png);
 background-position: bottom right;
