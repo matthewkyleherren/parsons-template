@@ -5410,7 +5410,7 @@ strong {
 
 .top-left-element {
 	position: absolute;
-	left: 50px;
+	
 	top: 50px;
 	bottom: auto;
 	display: -webkit-box;
@@ -5434,7 +5434,7 @@ strong {
 
 .top-left-element.right {
 	left: auto;
-	right: 50px;
+	
 	margin-right:-5px
 }
 
@@ -9184,13 +9184,13 @@ background-size: auto 100%;
 }
 .gradient-shape {
 position: absolute;
-background: radial-gradient(circle, #ff00aa 0%, #00d8ff 50%, rgba(255, 0, 0, 0) 100%);
--webkit-mask-image: radial-gradient(ellipse 100% 100% at 50% 50%, black 30%, transparent 50%);
-mask-image: radial-gradient(ellipse 100% 100% at 50% 50%, black 30%, transparent 50%);
-width: 54vw;
-height: 54vw;
-left: 30vw;
-top: 10vw;
+background: radial-gradient(circle, #ff00aa 0%, #00d8ff 50%, rgba(0, 255, 143, 1) 100%);
+-webkit-mask-image: radial-gradient(ellipse 100% 100% at 50% 50%, black 30%, transparent 70%);
+mask-image: radial-gradient(ellipse 100% 100% at 50% 50%, black 30%, transparent 70%);
+width: 100vw;
+height: 100vh;
+left: 0vw;
+top: 0vw;
 -webkit-animation: scalegradientShape 8s ease-in-out infinite;
 animation: scalegradientShape 8s ease-in-out infinite;
 -webkit-animation-play-state: running;
@@ -9269,13 +9269,13 @@ min-width: 100vw;
 
 .gradient-shape {
 position: absolute;
-background: radial-gradient(circle, #ff00aa 0%, #00d8ff 50%, rgba(255, 0, 0, 0) 100%);
+background: radial-gradient(circle, #ff00aa 0%, #00d8ff 50%, rgba(0, 255, 143, 0.978) 100%);
 -webkit-mask-image: radial-gradient(ellipse 100% 100% at 50% 50%, black 30%, transparent 50%);
 mask-image: radial-gradient(ellipse 100% 100% at 50% 50%, black 30%, transparent 50%);
-width: 80vw;
-height: 74vw;
-left: 5vw;
-top: 30vw;
+width: 100vw;
+height: 100vh;
+left: 0vw;
+top: 0vh;
 -webkit-animation: scalegradientShape 8s ease-in-out infinite;
 animation: scalegradientShape 8s ease-in-out infinite;
 -webkit-animation-play-state: running;
