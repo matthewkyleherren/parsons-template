@@ -5271,7 +5271,7 @@ strong {
 	display: -ms-flexbox;
 	display: flex;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	-webkit-box-pack: center;
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
@@ -5321,7 +5321,7 @@ strong {
 	display: -ms-flexbox;
 	display: flex;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-webkit-flex-direction: column;
@@ -9146,8 +9146,8 @@ strong {
 	-webkit-align-items: center;
 	-ms-flex-align: center;
 	align-items: center;
-	border-bottom: 1px solid #fff;
-	background-color: rgba(225, 226, 229, .4);
+	border-bottom: .5px solid rgba(255, 255, 255, 0.719);
+	background-color: rgba(225, 226, 229, .25);
 	-webkit-transform: translate(0, 100%);
 	-ms-transform: translate(0, 100%);
 	transform: translate(0, 100%);
@@ -9324,7 +9324,8 @@ main>section {
 	background: url(/assets/imgs/home_hero_01.png);
 	background-position: bottom left;
 	background-repeat: no-repeat;
-	background-size: auto 100%;
+	background-size: contain;
+	height: 100vh;
 }
 
 /* .model-name-one {
@@ -9351,28 +9352,32 @@ background: -webkit-linear-gradient(#f08, #f00);
 	background: url(/assets/imgs/home_hero_02.png);
 	background-position: bottom right;
 	background-repeat: no-repeat;
-	background-size: auto 100%;
+	background-size: contain;
+	height: 100vh;
 }
 
 #home-three {
 	background: url(/assets/imgs/home_hero_03.png);
 	background-position: bottom left;
 	background-repeat: no-repeat;
-	background-size: auto 100%;
+	background-size: contain;
+	height: 100vh;
 }
 
 #home-four {
 	background: url(/assets/imgs/home_hero_04.png);
 	background-position: bottom right;
 	background-repeat: no-repeat;
-	background-size: auto 100%;
+	background-size: contain;
+	height: 100vh;
 }
 
 #home-five {
 	background: url(/assets/imgs/home_hero_01.png);
 	background-position: bottom left;
 	background-repeat: no-repeat;
-	background-size: auto 100%;
+	background-size: contain;
+	height: 100vh;
 }
 
 .gradient-shape {
@@ -9398,28 +9403,28 @@ background: -webkit-linear-gradient(#f08, #f00);
 		background: url(/assets/imgs/home_hero_01_mobile.png);
 		background-position: bottom center;
 		background-repeat: no-repeat;
-		background-size: auto 90%;
+		background-size: cover;
 	}
 
 	#home-two {
 		background: url(/assets/imgs/home_hero_02_mobile.png);
 		background-position: bottom center;
 		background-repeat: no-repeat;
-		background-size: auto 90%;
+		background-size: cover;
 	}
 
 	#home-three {
 		background: url(/assets/imgs/home_hero_03_mobile.png);
 		background-position: bottom center;
 		background-repeat: no-repeat;
-		background-size: auto 90%;
+		background-size: cover;
 	}
 
 	#home-four {
 		background: url(/assets/imgs/home_hero_04_mobile.png);
 		background-position: bottom center;
 		background-repeat: no-repeat;
-		background-size: auto 90%;
+		background-size: cover;
 	}
 
 	#home-five {
@@ -9431,7 +9436,7 @@ background: -webkit-linear-gradient(#f08, #f00);
 
 	.fp-text-alignment {
 		position: absolute;
-		bottom: 4%;
+		bottom: 0px;
 		width: 100vw;
 		min-width: 100vw;
 		border-top: 1px solid #fff;
@@ -9454,6 +9459,7 @@ background: -webkit-linear-gradient(#f08, #f00);
 	.fp-list-item {
 		width: 100vw;
 		min-width: 100vw;
+		height:100vh;
 
 	}
 
