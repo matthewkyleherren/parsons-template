@@ -6,7 +6,7 @@
 
 .accordion-header,
 .accordion-body {
-  background: white;
+  background: rgba(255, 255, 255, 0);
 }
 
 .accordion-header {
@@ -15,18 +15,18 @@
   font-size: 18px;
   letter-spacing: .1em;
   transition: all 0.3s cubic-bezier(.4,0,0,1);
-  border-bottom: 1px solid #17171c;
+  border-bottom: 1px solid #ffffff;
   color: #17171c;
   background-size: 200% 200%;
-  background-image: 
-linear-gradient(to top, #17171c 50%, transparent 50%);
+ background: rgba(225, 226, 229, .25)
 padding-left: 27px !important;
 padding-right: 27px !important;
+filter: blur(20%): 
 }
 
 .accordion-header:hover {
   color: #fff;
-  background-image: linear-gradient(to top, #17171c 51%, transparent 50%);
+
   background-position: 0 100%;
   position: relative;
   z-index: 5;
@@ -34,10 +34,10 @@ padding-right: 27px !important;
 }
 
 .accordion-body {
-  background: #17171c;
-  color: #fff;
+
+  color: #555;
   display: none;
-  font-weight:400;
+  font-weight:300;
 }
 
 .accordion-body__contents {
@@ -92,8 +92,8 @@ button {
 }
 
 .accordion__item.active .accordion-header {
-  background:#17171c;
-  color:#fff;
+  background: rgba(225, 226, 229, .25)
+  color:#555;
   padding:1.5em;
 }
 

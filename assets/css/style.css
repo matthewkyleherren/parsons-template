@@ -9364,13 +9364,13 @@ background: -webkit-linear-gradient(#f08, #f00);
 	height: 100vh;
 }
 
-#home-four {
+/* #home-four {
 	background: url(/assets/imgs/home_hero_04.png);
 	background-position: bottom right;
 	background-repeat: no-repeat;
 	background-size: contain;
 	height: 100vh;
-}
+} */
 
 #home-five {
 	background: url(/assets/imgs/home_hero_01.png);
